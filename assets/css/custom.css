@@ -1,0 +1,135 @@
+.navbar-custom .navbar-brand {
+	margin-right: -100px;
+}
+
+.navbar-custom .navbar-brand {
+	color: #69BBAC;
+}
+
+.navbar-custom .nav > li > a {
+	color: #69BBAC;
+}
+
+.navbar-custom .nav > li > a:focus,
+.navbar-custom .nav > li > a:hover {
+	color: #69CAAC;
+}
+
+.navbar-transparent .navbar-brand {
+	color: #FFF;
+}
+
+.navbar-transparent .nav > li > a {
+	color: #FFF;
+}
+
+.navbar-transparent .nav > li > a:focus,
+.navbar-transparent .nav > li > a:hover {
+	color: #EEE;
+}
+
+.navbar-custom .nav > li > a {
+	padding: 0;
+    margin: 15px;
+}
+
+.navbar-custom .nav > .active > a,
+.navbar-custom .nav > li > a:hover {
+    border-bottom: 1px solid #69BBAC;
+}
+
+.navbar-custom .nav > .active > a:hover {
+    border-bottom: 1px solid #69CAAC;
+}
+
+.navbar-transparent .nav > .active > a,
+.navbar-transparent .nav > li > a:hover {
+    border-bottom: 1px solid #FFF;
+}
+
+.navbar-transparent .nav >.active>a:hover {
+    border-bottom: 1px solid #EEE;
+}
+
+.color-header {
+	color:#69BBAC;
+}
+
+.font-alt {
+	text-transform: none;
+}
+
+.alt-features-title {
+	font-size: 16px;
+}
+
+a:hover, a:focus {
+	color: #69BBAC;
+}
+
+.btn.btn-g:hover,
+.btn.btn-g:focus {
+	background: #69CAAC;
+	color: #fff;
+}
+
+.btn.btn-border-d:hover,
+.btn.btn-border-d:focus {
+	background: #69CAAC;
+	color: #fff;
+}
+
+.btn.btn-g {
+	background: #69BBAC;
+	border: 1px solid #b2b2b2;
+	color: #FFF;
+}
+
+.module-title {
+	position: relative;
+	margin: 0 0 35px;
+	letter-spacing: 0.15em;
+	font-size: 30px;
+	color: #000;
+}
+
+.post-subtitle {
+	margin: 0 0 35px;
+}
+
+body {
+	font-size: 16px;
+}
+
+.module-subtitle {
+	margin-bottom: 35px;
+	font-size: 18px;
+}
+
+.post-meta {
+	font-size: 16px;
+}
+
+.post-more {
+	font-size: 16px;
+}
+
+.post-title {
+	font-size: 22px;
+}
+
+.navbar-header {
+	height: 70px;
+}
+
+.module-less-space {
+	padding: 50px 0;
+}
+
+.module-less-bottom-space {
+	padding: 140px 0 50px;
+}
+
+.navbar-custom {
+	font-size: 16px;
+}
