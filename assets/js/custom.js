@@ -317,35 +317,6 @@
 		});
 
 		/* ---------------------------------------------- /*
-		 * Scroll Animation
-		/* ---------------------------------------------- */
-
-		$('.section-scroll').bind('click', function(e) {
-			var anchor = $(this);
-			$('html, body').stop().animate({
-				scrollTop: $(anchor.attr('href')).offset().top
-			}, 1000);
-			e.preventDefault();
-		});
-
-		/* ---------------------------------------------- /*
-		 * Change active nav
-		/* ---------------------------------------------- */
-
-		$('a.mywork').click(function(e) {
-			$('li.active').removeClass('active');
-			$('li.mywork').addClass('active');
-			e.preventDefault();
-		})
-
-		var hash = window.location.hash.substring(1);
-
-		if (hash == "mywork") {
-			$('li.active').removeClass('active');
-			$('li.mywork').addClass('active');
-		};
-
-		/* ---------------------------------------------- /*
 		 * Google Map
 		/* ---------------------------------------------- */
 
@@ -447,6 +418,17 @@
 
 		$('body').fitVids();
 
+		/* ---------------------------------------------- /*
+		 * Scroll Animation
+		/* ---------------------------------------------- */
+
+		$('.section-scroll').bind('click', function(e) {
+			var anchor = $(this);
+			$('html, body').stop().animate({
+				scrollTop: $(anchor.attr('href')).offset().top
+			}, 1000);
+			e.preventDefault();
+		});
 
 		/* ---------------------------------------------- /*
 		 * Scroll top

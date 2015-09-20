@@ -1,8 +1,8 @@
 <?php
 
 	// Mail settings
-	$to = "web-master72@yandex.ru";
-	$subject = "Leaff contact form";
+	$to = "sara@saratesler.com";
+	$subject = "new email from saratesler.com";
 
 	if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["message"])) {
 
@@ -13,7 +13,7 @@
 		if (mail($to, $subject, $content, $_POST["email"])) {
 
 			$result = array(
-				"message" => "Thanks for contacting us.",
+				"message" => "Thanks for the email! You'll here from me soon.",
 				"sendstatus" => 1
 			);
 

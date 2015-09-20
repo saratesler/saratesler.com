@@ -10,7 +10,6 @@
 	color: #69BBAC;
 }
 
-.navbar-custom .nav > li > a:focus,
 .navbar-custom .nav > li > a:hover {
 	color: #69CAAC;
 }
@@ -23,7 +22,6 @@
 	color: #FFF;
 }
 
-.navbar-transparent .nav > li > a:focus,
 .navbar-transparent .nav > li > a:hover {
 	color: #EEE;
 }
@@ -87,7 +85,7 @@ a:hover, a:focus {
 
 .module-title {
 	position: relative;
-	margin: 0 0 35px;
+	margin: 0 0 1px;
 	letter-spacing: 0.15em;
 	font-size: 30px;
 	color: #000;
@@ -126,10 +124,13 @@ body {
 	padding: 50px 0;
 }
 
-.module-less-bottom-space {
-	padding: 140px 0 50px;
-}
-
 .navbar-custom {
 	font-size: 16px;
+}
+
+ /*Contact form */
+
+#contact-form,
+#contact-response {
+	padding-top: 30px;
 }
